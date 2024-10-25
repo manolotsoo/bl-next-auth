@@ -49,7 +49,7 @@ yarn install
 
 ### Configuration
 1. Set up environment variables:
-Create a .env.local file at the root of the project with the following variables:
+Create a ```.env.local``` file at the root of the project with the following variables:
 
 ```bash
 # Google OAuth
@@ -100,16 +100,16 @@ yarn dev
 ```
 
 2. Access the application:
-The application should now be running on http://localhost:3000.
+The application should now be running on ```http://localhost:3000```.
 
 ### Authentication Routes
 NextAuth.js automatically sets up the following routes:
 
-* /api/auth/signin - Sign in page
-* /api/auth/signout - Sign out page
-* /api/auth/session - Session endpoint to get the current user session
-* /api/auth/callback/google - Callback route for Google OAuth
-* /api/auth/callback/github - Callback route for GitHub OAuth
+* ```/api/auth/signin``` - Sign in page
+* ```/api/auth/signout``` - Sign out page
+* ```/api/auth/session``` - Session endpoint to get the current user session
+* ```/api/auth/callback/google``` - Callback route for Google OAuth
+* ```/api/auth/callback/github``` - Callback route for GitHub OAuth
 
 ### Customization Routes
 
@@ -123,5 +123,6 @@ NextAuth.js automatically sets up the following routes:
 
 ## License
 This project is licensed under the MIT License.
+
 
 [MIT](https://choosealicense.com/licenses/mit/)
